@@ -69,9 +69,9 @@ Commercial, cloud-hosted Small Business Pipeline CRM platforms sorted in descend
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven, and open-source Small Business Pipeline CRM systems. The table below is sorted by GitHub star counts (descending). 🌐
+Self-hosted, community-driven, and open-source Small Business Pipeline CRM systems. The table below is sorted by GitHub Stars_Counts (descending). 🌐
 
-| Project | GitHub Stars | Stack | License | Key Strengths |
+| Project | GitHub_Stars | Stack | License | Key Strengths |
 |---|---|---|---|---|
 | [**Twenty**](https://twenty.com) | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | TypeScript, React, NestJS, PostgreSQL | AGPL-3.0 | Modern Salesforce alternative; custom objects at runtime, Kanban boards, AI/MCP integration 🤖 |
 | [**Krayin CRM**](https://krayincrm.com/) | [![Krayin Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers) | PHP, Laravel, Vue.js, MySQL | MIT | Permissive MIT license; drag-and-drop Kanban, quotation engine, AI PDF lead extraction ⚡ |
