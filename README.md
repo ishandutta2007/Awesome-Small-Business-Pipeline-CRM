@@ -1,159 +1,216 @@
-# Awesome-Small-Business-Pipeline-CRM
-
 # Awesome Small Business Pipeline CRM
 
-> A curated list of top Small Business Pipeline CRM platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing sales pipelines, contacts, and deals without enterprise complexity.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+> A curated list of top **Small Business Pipeline CRM** platforms — featuring both SaaS/hosted solutions and self-hosted open-source alternatives for managing sales pipelines, lead lifecycles, and deal tracking without enterprise bloat.
+
+Looking for the best sales pipeline CRM for small businesses, agencies, and startups? This comprehensive directory compares commercial SaaS options and self-hosted open-source software, detailing pricing tiers, free tier limits, company valuation/revenue, and community traction.
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Pipedrive](#pipedrive)
-  - [Zoho Bigin](#zoho-bigin)
-  - [HubSpot CRM](#hubspot-crm)
-  - [Copper](#copper)
-  - [Capsule CRM](#capsule-crm)
-  - [Less Annoying CRM](#less-annoying-crm)
-  - [Pipeline CRM](#pipeline-crm)
-  - [Insightly](#insightly)
-  - [Nutshell](#nutshell)
 - [Open-Source Software](#-open-source-software)
-  - [Krayin CRM](#krayin-crm)
-  - [EspoCRM](#espocrm)
   - [Twenty](#twenty)
-  - [Hermit CRM](#hermit-crm)
+  - [Krayin CRM](#krayin-crm)
+  - [Idurar](#idurar)
+  - [SuiteCRM](#suitecrm)
+  - [Frappe CRM](#frappe-crm)
+  - [EspoCRM](#espocrm)
+  - [Atomic CRM](#atomic-crm)
   - [RealTimeX CRM](#realtimex-crm)
+  - [Hermit CRM](#hermit-crm)
   - [amagi-crm](#amagi-crm)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global CRM software market is valued at approximately **$113B–$128B (2024–2025)** and is projected to surpass **$140B+ by 2027**, growing at a steady compound annual growth rate (CAGR) of 11–12%. While the enterprise tier remains **moderately concentrated** among tech giants (Salesforce capturing ~20% market share alongside Microsoft, Oracle, and SAP), the small business pipeline CRM sector is **highly fragmented**, creating vibrant competition among user-friendly, specialized SaaS providers and rapidly emerging self-hosted open-source alternatives.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Small Business Pipeline CRM platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Small Business Pipeline CRM platforms sorted in descending order by estimated company valuation / annual revenue scale.
 
-### Pipedrive
-**Type:** Sales pipeline-first CRM  
-Pipedrive is built around the visual sales pipeline, with drag-and-drop deal stages that make it immediately intuitive for small sales teams. It focuses on activity-based selling, with reminders and next-step prompts to keep deals moving. Pricing is per-seat with tiered plans.
-
-### Zoho Bigin
-**Type:** Lightweight pipeline CRM for small teams  
-Zoho Bigin is a simplified CRM designed for small businesses that find full-featured CRMs overwhelming. It offers pipeline management, contact management, and basic automation at a lower price point than Zoho CRM. Suited for teams transitioning from spreadsheets.
-
-### HubSpot CRM
-**Type:** Free CRM with pipeline management  
-HubSpot's free CRM tier includes contact management, deal pipelines, and task tracking. It serves as an entry point to the broader HubSpot ecosystem, with paid Hubs adding marketing, sales, and service capabilities. Best for teams wanting a free starting point with room to grow.
-
-### Copper
-**Type:** CRM built for Google Workspace  
-Copper integrates natively with Gmail and Google Workspace, automatically capturing emails and contacts. Its pipeline management is designed for teams that live in Gmail rather than wanting a separate CRM interface. Pricing is per-seat.
-
-### Capsule CRM
-**Type:** Simple, focused small business CRM  
-Capsule provides a clean, straightforward CRM with contact management, sales pipelines, and task tracking. It is known for its simplicity and is positioned for small teams that do not need enterprise complexity. A free tier exists for up to 250 contacts.
-
-### Less Annoying CRM
-**Type:** Deliberately simple CRM  
-Less Annoying CRM is built around the philosophy of simplicity, offering contact management, pipeline tracking, and task management without unnecessary features. It is priced affordably at $15/user/month with no tiers or hidden costs.
-
-### Pipeline CRM
-**Type:** Sales pipeline and forecasting  
-Pipeline CRM (formerly PipelineDeals) focuses on sales pipeline management with deal tracking, forecasting, and team collaboration. It is positioned for small to mid-sized sales teams wanting structured pipeline visibility.
-
-### Insightly
-**Type:** CRM with project management integration  
-Insightly combines CRM with project management, allowing teams to manage deals and delivery in one platform. Suited for service businesses where sales and project execution are closely linked.
-
-### Nutshell
-**Type:** Sales CRM with email automation  
-Nutshell provides pipeline management, contact management, and sales automation for small to mid-sized teams. It includes email sequences and reporting to help teams close more deals.
+| Platform | Company Scale (Valuation / Revenue) | Starting Price (Paid Tiers) | Free Tier Limits / Free Trial | Best For |
+|---|---|---|---|---|
+| [**HubSpot CRM**](https://www.hubspot.com/products/crm) | **$10B+ market cap** (~$3.1B annual revenue) | **$20/seat/month** (Starter Sales Hub, billed monthly; discounts with annual commitment) | **Free Forever Plan**: Up to 2 users, 1,000 contacts, 1 deal pipeline, 2,000 marketing emails/month (HubSpot branded) | Free entry point with extensive marketing and sales growth tools |
+| [**Zoho Bigin**](https://www.bigin.com/) | **~$12B–$12.5B private valuation** (~$1.5B revenue, Zoho Corp) | **$7/user/month** (Express plan, billed annually; or $9/user/month billed monthly) | **Free Forever Plan**: 1 user only, up to 500 records total, 1 pipeline, 3 workflow automations | Micro-teams and solopreneurs migrating off spreadsheets |
+| [**Copper**](https://www.copper.com/) | **$3B peak valuation** (~$41M annual revenue) | **$23/user/month** (Basic plan, billed annually; or $29/user/month billed monthly) | **14-day free trial** (Full feature access, no credit card required; no permanent free tier) | Google Workspace & Gmail-native sales teams |
+| [**Pipedrive**](https://www.pipedrive.com/) | **$1.5B acquisition valuation** (~$190M annual revenue) | **$14/user/month** (Essential plan, billed annually; or $24/user/month billed monthly) | **14-day free trial** (Full feature access, no credit card required; no permanent free tier) | Visual activity-based pipeline and deal management |
+| [**Insightly**](https://www.insightly.com/) | **$38M+ funding raised** (~$25M–$37M annual revenue) | **$29/user/month** (Plus plan, billed annually) | **14-day free trial** (Full feature access, no credit card required; free tier discontinued) | Deal tracking with built-in post-sale project management |
+| [**Nutshell**](https://www.nutshell.com/) | **~$11M annual revenue** (Bootstrapped / growth capital) | **$13/user/month** (Foundation plan, billed annually; or $19/user/month billed monthly) | **14-day free trial** (Full feature access, no credit card required; no permanent free tier) | Sales pipeline tracking with integrated email drip sequences |
+| [**Capsule CRM**](https://capsulecrm.com/) | **~$7M annual revenue** (Profitable bootstrapped) | **$18/user/month** (Starter plan, billed annually; or $21/user/month billed monthly) | **Free Forever Plan**: Up to 2 users, 250 contacts, 1 sales pipeline, 5 custom fields | Lightweight, simple contact and opportunity tracking |
+| [**Less Annoying CRM**](https://www.lessannoyingcrm.com/) | **~$4M ARR** (Independently bootstrapped) | **$15/user/month** (Flat rate, no tiered pricing or hidden add-ons) | **30-day free trial** (Full unrestricted access, unlimited contacts/pipelines, no credit card required; no permanent free tier) | Solopreneurs and small businesses wanting zero complexity |
+| [**Pipeline CRM**](https://www.pipelinecrm.com/) | **<$10M ARR** (Private SMB specialist) | **$25/user/month** (Start plan, billed annually; or $29/user/month billed monthly) | **14-day free trial** (Full feature access, no credit card required; no permanent free tier) | Structured sales pipeline forecasting and deal acceleration |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Small Business Pipeline CRM tools. The open-source ecosystem has matured significantly, with several actively maintained options ranging from lightweight file-based CRMs to full-featured platforms.
+Self-hosted, community-driven, and open-source Small Business Pipeline CRM systems. The table below is sorted by GitHub star counts (descending).
 
-### Krayin CRM
-**Stack:** PHP / Laravel / Vue.js / MySQL | **License:** MIT  
-Krayin is a free, MIT-licensed Laravel CRM built for SMEs and enterprises, with **22,100+ GitHub stars** and active development . It provides complete customer lifecycle management through a modern Vue.js interface, covering:
-- **Lead & Pipeline Management** — drag-and-drop Kanban boards with deal probability and stage tracking 
-- Contact & Organization Management with full interaction history 
-- Activity Tracking (calls, meetings, emails, notes, tasks) 
-- Quotation & Product Catalog 
-- Email Integration (inbound parsing via SendGrid, outbound campaigns) 
-- Workflow Automation and REST API with webhooks 
-- **AI Lead Extraction** — create leads automatically from uploaded PDFs and images 
-- Role-Based Access Control and custom attributes 
+| Project | GitHub Stars | Stack | License | Key Strengths |
+|---|---|---|---|---|
+| [**Twenty**](https://twenty.com) | [![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | TypeScript, React, NestJS, PostgreSQL | AGPL-3.0 | Modern Salesforce alternative; custom objects at runtime, Kanban boards, AI/MCP integration |
+| [**Krayin CRM**](https://krayincrm.com/) | [![Krayin Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers) | PHP, Laravel, Vue.js, MySQL | MIT | Permissive MIT license; drag-and-drop Kanban, quotation engine, AI PDF lead extraction |
+| [**Idurar ERP / CRM**](https://www.idurarapp.com/) | [![Idurar Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers) | JavaScript, Node.js, Express, React, MongoDB | MIT | Complete open-source sales pipeline, invoicing, accounting, and inventory for SMEs |
+| [**SuiteCRM**](https://suitecrm.com/) | [![SuiteCRM Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers) | PHP, Symfony, MariaDB/MySQL | AGPL-3.0 | Enterprise-grade maturity; visual pipeline, workflow studio, granular RBAC, large extension market |
+| [**Frappe CRM**](https://frappecrm.com/) | [![Frappe CRM Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers) | Python, Frappe Framework, Vue.js | AGPL-3.0 | Modern, clean pipeline UI; seamless integration with Frappe/ERPNext ecosystem and WhatsApp/call logs |
+| [**EspoCRM**](https://www.espocrm.com/) | [![EspoCRM Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | PHP, MySQL, PostgreSQL | AGPL-3.0 | Lightweight, visual sales pipelines, modular architecture, fast deployment, REST API |
+| [**Atomic CRM**](https://marmelab.com/atomic-crm/) | [![Atomic CRM Stars](https://img.shields.io/github/stars/marmelab/atomic-crm?style=social&color=white)](https://github.com/marmelab/atomic-crm/stargazers) | TypeScript, React, Tailwind CSS, Supabase | MIT | Developer-first starter toolkit; Kanban pipeline, contact timelines, built on PostgreSQL/Supabase |
+| [**RealTimeX CRM**](https://github.com/therealtimex/realtimex-crm) | [![RealTimeX Stars](https://img.shields.io/github/stars/therealtimex/realtimex-crm?style=social&color=white)](https://github.com/therealtimex/realtimex-crm/stargazers) | React, TypeScript, Supabase | MIT | Atomic CRM fork with Bring-Your-Own-Database (BYOD) setup, email sync, and Kanban deal pipelines |
+| [**Hermit CRM**](https://github.com/Hermit-CRM/hermit-crm) | [![Hermit CRM Stars](https://img.shields.io/github/stars/Hermit-CRM/hermit-crm?style=social&color=white)](https://github.com/Hermit-CRM/hermit-crm/stargazers) | Python, Markdown files, Git | MIT | Git-native and file-based CRM; Markdown records, follow-up radar, local privacy, MCP server for AI |
+| [**amagi-crm**](https://github.com/amagilabs/amagi-crm) | [![amagi-crm Stars](https://img.shields.io/github/stars/amagilabs/amagi-crm?style=social&color=white)](https://github.com/amagilabs/amagi-crm/stargazers) | Python, SQLite / PostgreSQL | MIT | CLI-first CRM for solo founders; pipeline stage totals, appointment scheduling, tamper-evident audit chain |
 
-Deploys via Docker or one-click Railway with MySQL and Nginx pre-configured .  
-**Best for:** Small businesses and agencies wanting a feature-rich, MIT-licensed CRM with drag-and-drop pipelines, quotation management, and AI lead extraction, without per-user fees.
-
-### EspoCRM
-**Stack:** PHP / MySQL/PostgreSQL | **License:** AGPL-3.0  
-EspoCRM is one of the best open-source CRMs for startups and small businesses, known for its intuitive interface, low learning curve, and lightweight codebase . Features include visual sales pipelines with customizable stages, workflow automation, REST API for third-party integrations, and built-in analytics . It uses a modular architecture, so teams can enable only the components they need (Leads, Opportunities, Cases) . The self-hosted edition is free with unlimited users; a cloud option starts at $15/month . **Trade-off:** Enterprise-grade reporting is limited, and integrations are fewer than larger CRMs .  
-**Best for:** Growing teams wanting a flexible, easy-to-deploy CRM with visual pipelines and workflow automation, accepting a smaller integration ecosystem.
+---
 
 ### Twenty
+[![Twenty Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+**Repository:** [twentyhq/twenty](https://github.com/twentyhq/twenty)  
 **Stack:** TypeScript / NestJS / React / PostgreSQL / Redis | **License:** AGPL-3.0  
-Twenty is a modern, open-source CRM positioned as a **Salesforce alternative**, with **28,000+ GitHub stars** and Y Combinator backing . It features a flexible metadata layer for creating **custom objects and fields at runtime**, Kanban and table views, GraphQL and REST APIs, email/calendar sync, workflow automation with webhooks, and role-based permissions . Version 2.0 added MCP support for AI client integration (Claude can directly access CRM data via OAuth), a slimmer SDK with 700x smaller bundles, and hardening of OAuth with PKCE . Deploys via Docker Compose or Railway with PostgreSQL, Redis, and MinIO .  
-**Best for:** Developer-friendly teams wanting a modern, extensible CRM with custom objects, AI integration via MCP, and a path away from Salesforce/HubSpot.
+Twenty is a modern, open-source CRM positioned as a **Salesforce alternative** with Y Combinator backing. It features a flexible metadata layer for creating **custom objects and fields at runtime**, Kanban deal pipelines, table views, GraphQL and REST APIs, email/calendar sync, workflow automation with webhooks, and role-based permissions. It natively supports Model Context Protocol (MCP) for direct AI assistant integration (e.g. Claude or Cursor querying your CRM data via OAuth).  
+**Best for:** Developer-friendly teams and growing businesses wanting a modern, highly extensible CRM with custom objects, AI integration via MCP, and zero vendor lock-in.
 
-### Hermit CRM
-**Stack:** Python / Markdown files / Git | **License:** Open Source  
-Hermit CRM is a **file-based, Git-native CRM** where every company, contact, and interaction is stored as a Markdown file in a folder structure, with Git providing history and audit . Features include pipeline boards with customizable stages, follow-up radar, tasks with calendar view, timeline per company, message drafts in multiple languages, CSV/Excel import, and an **MCP server** for AI assistant integration . A bookmarklet turns web pages into filled-in forms. **Trade-off:** It is a CLI-driven tool with no traditional web UI (though it has a local server mode); best suited for technical founders comfortable with Git workflows.  
-**Best for:** Technical founders and small teams wanting a Git-native, file-based CRM with full data ownership and AI assistant access, without a database or SaaS dependency.
+---
+
+### Krayin CRM
+[![Krayin Stars](https://img.shields.io/github/stars/krayin/laravel-crm?style=social&color=white)](https://github.com/krayin/laravel-crm/stargazers)  
+**Repository:** [krayin/laravel-crm](https://github.com/krayin/laravel-crm)  
+**Stack:** PHP / Laravel / Vue.js / MySQL | **License:** MIT  
+Krayin is a free, MIT-licensed Laravel CRM built specifically for SMEs and agencies. It provides comprehensive sales lifecycle management through a Vue.js single-page application, featuring:
+- **Lead & Pipeline Management** — interactive drag-and-drop Kanban boards with deal probability, custom stages, and revenue forecasting.
+- **Contact & Organization Management** — full interaction history and timeline tracking.
+- **AI Lead Extraction** — automatically parse incoming lead details from uploaded PDFs, quotes, and images.
+- **Quotation & Product Catalog** — generate and dispatch professional sales quotes directly from deal cards.
+- **Workflow Automation & REST API** — trigger webhooks and automate repetitive follow-up tasks.  
+**Best for:** Small businesses and digital agencies seeking a feature-packed, MIT-licensed CRM with Kanban pipelines, quotation management, and AI lead extraction without per-user licensing fees.
+
+---
+
+### Idurar ERP / CRM
+[![Idurar Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)  
+**Repository:** [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)  
+**Stack:** JavaScript / Node.js / React / Express / MongoDB | **License:** MIT  
+Idurar is an open-source ERP/CRM application tailored for small and medium-sized enterprises. It combines visual sales pipelines and client management with built-in accounting, invoicing, quotes, payment tracking, and inventory control. Its modern Node/React architecture makes it easy for web developers to customize and self-host.  
+**Best for:** Small service businesses, contractors, and agencies wanting a combined sales pipeline and billing/invoicing platform in a single open-source stack.
+
+---
+
+### SuiteCRM
+[![SuiteCRM Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers)  
+**Repository:** [salesagility/SuiteCRM](https://github.com/salesagility/SuiteCRM)  
+**Stack:** PHP / Symfony / MariaDB / MySQL | **License:** AGPL-3.0  
+SuiteCRM is one of the most mature, battle-tested open-source CRM systems in the world (originally forked from SugarCRM). It offers enterprise-grade capabilities: customizable sales pipelines, workflow process automation, case and lead management, email campaigns, customer self-service portals, and deep role-based access control.  
+**Best for:** Established small-to-mid businesses needing deep customization, complex process workflows, and a mature community ecosystem without proprietary license fees.
+
+---
+
+### Frappe CRM
+[![Frappe CRM Stars](https://img.shields.io/github/stars/frappe/crm?style=social&color=white)](https://github.com/frappe/crm/stargazers)  
+**Repository:** [frappe/crm](https://github.com/frappe/crm)  
+**Stack:** Python / Frappe Framework / Vue.js / MariaDB | **License:** AGPL-3.0  
+Frappe CRM is a dedicated, modern sales CRM built by the creators of ERPNext. It features an intuitive, fast UI with visual deal pipelines, omni-channel communication tracking (emails, WhatsApp, phone call logs), automated lead assignments, and customizable SLA views. It integrates natively with the broader Frappe ecosystem.  
+**Best for:** Small businesses and fast-moving sales teams wanting a clean, snappy, modern open-source pipeline CRM with out-of-the-box WhatsApp and email communication.
+
+---
+
+### EspoCRM
+[![EspoCRM Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+**Repository:** [espocrm/espocrm](https://github.com/espocrm/espocrm)  
+**Stack:** PHP / MySQL / PostgreSQL | **License:** AGPL-3.0  
+EspoCRM is known for its fast performance, intuitive interface, and clean modular architecture. Features include visual sales pipelines with customizable stages, automated email sync via IMAP/SMTP, lead-to-opportunity conversions, workflow automation, and a comprehensive REST API. Self-hosted instances have no user limitations.  
+**Best for:** Growing startups and service firms wanting a flexible, low-maintenance self-hosted CRM with drag-and-drop deal tracking and workflow automation.
+
+---
+
+### Atomic CRM
+[![Atomic CRM Stars](https://img.shields.io/github/stars/marmelab/atomic-crm?style=social&color=white)](https://github.com/marmelab/atomic-crm/stargazers)  
+**Repository:** [marmelab/atomic-crm](https://github.com/marmelab/atomic-crm)  
+**Stack:** TypeScript / React / Tailwind CSS / Supabase | **License:** MIT  
+Atomic CRM, engineered by Marmelab, is an open-source, full-featured CRM template built using React Admin, Supabase (PostgreSQL), and Tailwind CSS. It delivers an out-of-the-box Kanban deal pipeline, contact activity timelines, notes, reminders, and user permission controls.  
+**Best for:** React and TypeScript developers who want a lightweight, modern codebase they can completely adapt, host on Supabase, and maintain with zero recurring licensing overhead.
+
+---
 
 ### RealTimeX CRM
-**Stack:** React / TypeScript / Supabase | **License:** Open Source  
-RealTimeX CRM is a fork of Atomic CRM with a focus on **"Bring Your Own Database"** configuration via Supabase . Features include contact organization, tasks and reminders, notes, email capture (CC the CRM to save communications), **Kanban deal pipeline**, data import/export, OAuth login (Google, Azure, Keycloak, Auth0), activity history, and API integration . Deploys via CLI (`npx create-realtimex-crm`) or manual clone with Node 22 and Supabase. Customization requires TypeScript/React skills.  
-**Best for:** Developer teams wanting a React-based CRM they can fully customize and connect to their own Supabase instance, accepting the technical setup requirements.
+[![RealTimeX Stars](https://img.shields.io/github/stars/therealtimex/realtimex-crm?style=social&color=white)](https://github.com/therealtimex/realtimex-crm/stargazers)  
+**Repository:** [therealtimex/realtimex-crm](https://github.com/therealtimex/realtimex-crm)  
+**Stack:** React / TypeScript / Supabase | **License:** MIT  
+RealTimeX CRM is an enhanced fork of Atomic CRM focusing on Bring-Your-Own-Database (BYOD) deployment. It provides Kanban deal pipelines, contact organization, tasks and reminders, notes, email capture (via CRM CC address), and OAuth login (Google, Azure, Keycloak, Auth0).  
+**Best for:** Development teams needing a React-based CRM deployable with custom database endpoints and turnkey OAuth integration.
+
+---
+
+### Hermit CRM
+[![Hermit CRM Stars](https://img.shields.io/github/stars/Hermit-CRM/hermit-crm?style=social&color=white)](https://github.com/Hermit-CRM/hermit-crm/stargazers)  
+**Repository:** [Hermit-CRM/hermit-crm](https://github.com/Hermit-CRM/hermit-crm)  
+**Stack:** Python / Markdown files / Git | **License:** MIT  
+Hermit CRM is a **file-based, Git-native CRM** where every company, contact, and interaction is stored as a Markdown file in a directory tree, using Git for revision history and synchronization. Features include pipeline boards with customizable stages, a follow-up radar, company timelines, CSV/Excel import, and an MCP server for AI agent integration.  
+**Best for:** Technical founders, developers, and solopreneurs wanting complete data ownership in plaintext Markdown without running a database server.
+
+---
 
 ### amagi-crm
-**Stack:** Python / SQLite or PostgreSQL | **License:** Open Source  
-amagi-crm is a CLI-first CRM that runs on SQLite with one command or PostgreSQL via Docker Compose . Features include **deal pipeline board** with stage totals, contact import from CSV (with dry-run and duplicate detection), appointment booking with overlap detection, and an **audit chain** with cryptographic verification (`amagi-crm audit verify` confirms integrity) . Encrypted fields require backing up the `.env` file, as lost keys mean unrecoverable data .  
-**Best for:** Technical users and small teams wanting a lightweight, CLI-driven CRM with SQLite simplicity and cryptographic audit trails, accepting a terminal-centric workflow.
+[![amagi-crm Stars](https://img.shields.io/github/stars/amagilabs/amagi-crm?style=social&color=white)](https://github.com/amagilabs/amagi-crm/stargazers)  
+**Repository:** [amagilabs/amagi-crm](https://github.com/amagilabs/amagi-crm)  
+**Stack:** Python / SQLite or PostgreSQL | **License:** MIT  
+amagi-crm is a lightweight, CLI-first CRM designed for solo operators and small firms. It runs on a single SQLite file or PostgreSQL via Docker Compose, offering pipeline deal tracking with stage totals, appointment scheduling with overlap detection, contact CSV imports, and a tamper-evident cryptographic audit chain.  
+**Best for:** Technical operators and solo founders looking for a minimalist, single-file CRM with cryptographic audit verification and terminal workflows.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Pipeline Board | Email Integration | Self-Hosted | Best For |
-|----------|---------|-------|----------------|-------------------|-------------|----------|
-| **Pipedrive** | Proprietary | Cloud | ✅ Visual | ✅ | ❌ | Sales-first pipeline |
-| **Zoho Bigin** | Proprietary | Cloud | ✅ | ✅ | ❌ | Lightweight small teams |
-| **HubSpot CRM** | Proprietary | Cloud | ✅ | ✅ | ❌ | Free starting point |
-| **Copper** | Proprietary | Cloud | ✅ | ✅ Gmail-native | ❌ | Google Workspace teams |
-| **Capsule** | Proprietary | Cloud | ✅ | ✅ | ❌ | Simple focused CRM |
-| **Krayin** | MIT | PHP/Laravel | ✅ Kanban + probability | ✅ SendGrid | ✅ | Full-featured MIT CRM |
-| **EspoCRM** | AGPL-3.0 | PHP | ✅ Visual | ✅ IMAP/SMTP | ✅ | Flexible growing teams |
-| **Twenty** | AGPL-3.0 | TypeScript | ✅ Kanban | ✅ Gmail/IMAP | ✅ | Developer-friendly + AI |
-| **Hermit CRM** | Open Source | Python/Markdown | ✅ Customizable | (Via files) | ✅ | Git-native + AI |
-| **RealTimeX** | Open Source | React/Supabase | ✅ Kanban | ✅ Email capture | ✅ | Customizable React CRM |
-| **amagi-crm** | Open Source | Python/SQLite | ✅ Stage totals | (Check) | ✅ | CLI + audit trail |
+| Software | Model | License / Cloud | Visual Pipeline | Email Sync | Key Differentiator |
+|---|---|---|---|---|---|
+| **HubSpot CRM** | SaaS | Proprietary (Free tier) | ✅ Drag-and-drop | ✅ Native | Robust free tier with seamless marketing/sales ecosystem |
+| **Zoho Bigin** | SaaS | Proprietary (Free tier) | ✅ Pipeline-first | ✅ Native | Affordable entry point for micro-businesses |
+| **Copper** | SaaS | Proprietary | ✅ Visual | ✅ Gmail-native | Zero-data-entry workflow embedded inside Google Workspace |
+| **Pipedrive** | SaaS | Proprietary | ✅ Visual Kanban | ✅ 2-way sync | Activity-based selling methodology and clean pipeline focus |
+| **Insightly** | SaaS | Proprietary | ✅ Visual | ✅ Native | Built-in project management linked to won deals |
+| **Nutshell** | SaaS | Proprietary | ✅ Multiple views | ✅ Automated sequences | Built-in email drip marketing and sales pipeline automation |
+| **Capsule CRM** | SaaS | Proprietary (Free tier) | ✅ Visual | ✅ Gmail/Outlook | Simple, uncluttered contact & pipeline tracking |
+| **Less Annoying CRM** | SaaS | Proprietary | ✅ Pipeline stages | ✅ Email logging | $15 flat rate, no tiers, designed specifically for micro-teams |
+| **Pipeline CRM** | SaaS | Proprietary | ✅ Deal tracking | ✅ Native | Dedicated sales forecasting and deal velocity tracking |
+| **Twenty** | Open Source | AGPL-3.0 | ✅ Kanban & Table | ✅ Gmail / IMAP | Modern extensible Salesforce alternative with AI/MCP support |
+| **Krayin CRM** | Open Source | MIT | ✅ Kanban + Probability | ✅ SendGrid / SMTP | Permissive MIT license, quotation engine & AI lead extraction |
+| **Idurar** | Open Source | MIT | ✅ Kanban | ✅ Email templates | Integrated CRM, billing, invoicing, and inventory for SMEs |
+| **SuiteCRM** | Open Source | AGPL-3.0 | ✅ Visual Studio | ✅ IMAP / SMTP | Enterprise workflows, customer portal, deep RBAC |
+| **Frappe CRM** | Open Source | AGPL-3.0 | ✅ Kanban | ✅ Email / WhatsApp | Modern UI, WhatsApp integration, native Frappe/ERPNext sync |
+| **EspoCRM** | Open Source | AGPL-3.0 | ✅ Visual Kanban | ✅ IMAP / SMTP | Lightweight, modular architecture, fast setup |
+| **Atomic CRM** | Open Source | MIT | ✅ Kanban | ✅ Email capture | Developer template built on React and Supabase |
+| **RealTimeX** | Open Source | MIT | ✅ Kanban | ✅ Email capture | BYOD React/Supabase pipeline CRM with turnkey OAuth |
+| **Hermit CRM** | Open Source | MIT | ✅ Text & Board | 📁 Markdown files | Git-native, local Markdown storage with MCP AI server |
+| **amagi-crm** | Open Source | MIT | ✅ Stage totals | ⚙️ CLI / Scripts | Single SQLite file database with cryptographic audit chain |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Small Business Pipeline CRM that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you know of an outstanding Small Business Pipeline CRM (especially active open-source projects or notable SaaS platforms tailored for small teams), please open a pull request or issue with:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem offers strong options across the spectrum: **Krayin** for a feature-rich MIT-licensed CRM with AI lead extraction and quotation management, **EspoCRM** for a flexible and lightweight platform with workflow automation, **Twenty** for a modern developer-friendly CRM with custom objects and MCP AI integration, and **Hermit CRM** for a Git-native, file-based approach with full data ownership. For teams wanting the simplest possible self-hosted setup, **amagi-crm** runs on a single SQLite file with cryptographic audit trails.
+- Platform / repository name and official URL
+- Brief description and key strengths
+- Tech stack, license, and pricing structure
+- Active maintenance status (commits/releases within the past 12 months)
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository is made available under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. Listed third-party software and trademarks remain the property of their respective owners.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<div align="center">
+  <b>⭐ If this guide helped you discover the right CRM, please consider starring this repository! ⭐</b>
+</div>
