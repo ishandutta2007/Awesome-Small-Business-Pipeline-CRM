@@ -64,6 +64,7 @@ Commercial, cloud-hosted Small Business Pipeline CRM platforms sorted in descend
 | [**Capsule CRM**](https://capsulecrm.com/) | **~$7M annual revenue** (Profitable bootstrapped) | **$18/user/month** (Starter plan, billed annually; or $21/user/month billed monthly) | **Free Forever Plan**: Up to 2 users, 250 contacts, 1 sales pipeline, 5 custom fields | Lightweight, simple contact and opportunity tracking 🗂️ |
 | [**Less Annoying CRM**](https://www.lessannoyingcrm.com/) | **~$4M ARR** (Independently bootstrapped) | **$15/user/month** (Flat rate, no tiered pricing or hidden add-ons) | **30-day free trial** (Full unrestricted access, unlimited contacts/pipelines, no credit card required; no permanent free tier) | Solopreneurs and small businesses wanting zero complexity 🧘 |
 | [**Pipeline CRM**](https://www.pipelinecrm.com/) | **<$10M ARR** (Private SMB specialist) | **$25/user/month** (Start plan, billed annually; or $29/user/month billed monthly) | **14-day free trial** (Full feature access, no credit card required; no permanent free tier) | Structured sales pipeline forecasting and deal acceleration 📈 |
+| [**Genaya**](https://genaya.com/) | **Early-stage, private** | **$99/month** (Individual plan, 1 user; Pro $249/month for 3 users) | **14-day free trial** (Card required; no permanent free tier) | Service businesses running leads, pipeline, calls, texts, estimates, and invoices in one app 📞 |
 
 ---
 
